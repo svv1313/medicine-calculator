@@ -7,6 +7,6 @@
   "procOption": "Procedural Sedation",
   "calculateButton": "Calculate",
   "invalidWeight": "Please enter a weight in the range of 50-140 kg (multiple of 10).",
-  "vrResult": "Initial maintenance infusion: {{startDose}} ml/h\nMaintenance infusion range: {{minDose}}-{{maxDose}} ml/h",
-  "procResult": "Loading dose: {{loadDose}} ml/10 min\nInitial maintenance infusion: {{startDose}} ml/h\nMaintenance infusion range: {{minDose}}-{{maxDose}} ml/h"
+  "vrResult": "Initial maintenance infusion: {{startDose}} ml/h<br>Maintenance infusion range: {{minDose}}-{{maxDose}} ml/h",
+  "procResult": "Loading dose: {{loadDose}} ml/10 min<br>Initial maintenance infusion: {{startDose}} ml/h<br>Maintenance infusion range: {{minDose}}-{{maxDose}} ml/h"
 }

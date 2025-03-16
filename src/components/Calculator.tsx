@@ -10,7 +10,7 @@ const Calculator = () => {
   const [result, setResult] = useState<string>("");
   const { t } = useTranslation();
 
-  const calculateDose = () => {
+  const calculateDose = () => { 
     if (weight === 0 || !doseData[type][weight]) {
       setResult(t("invalidWeight"));
       return;
@@ -84,9 +84,10 @@ const Calculator = () => {
       >
         {t("calculateButton")}
       </button>
-      <div className="result mt-6 text-lg font-semibold text-gray-800">
-        {result}
-      </div>
+      <div
+        className="result mt-6 text-lg font-semibold text-gray-800"
+        dangerouslySetInnerHTML={{ __html: result }}
+      />
     </div>
   );
 };
